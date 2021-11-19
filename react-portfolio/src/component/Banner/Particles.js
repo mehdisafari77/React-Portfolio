@@ -2,7 +2,6 @@ import React from 'react';
 import Particles from 'react-particles-js/';
 import Img1 from '../../image/img-1.png';
 import Img2 from '../../image/h_pijom1.png';
-import Img3 from '../../image/wave.png';
 import Img4 from '../../image/tr_two.png';
 import Img5 from '../../image/img-6.png';
 import Img6 from '../../image/img-8.png';
@@ -31,11 +30,6 @@ const ParticlesComponent = () => {
                   src: `${Img2}`,
                   width: 100,
                   height: 100,
-                },
-                {
-                  src: `${Img3}`,
-                  width: 100,
-                  height: 90,
                 },
                 {
                   src: `${Img4}`,
