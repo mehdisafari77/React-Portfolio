@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from './component/Navbar/Navbar';
+import Navbar from './component/Navbar';
 import ParticlesBanner from './component/Banner/ParticlesBanner';
 import About from './component/About';
 import Service from './component/Service';

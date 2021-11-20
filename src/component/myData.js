@@ -9,19 +9,14 @@ const myData = {
       className: "social_facebook",
     },
     {
-      name: "twitter",
-      url: "http://www.twitter.com/",
-      className: "social_twitter",
-    },
-    {
       name: "Github",
-      url: "http://www.googleplus.com",
-      className: "social_googleplus",
+      url: "https://github.com/mehdisafari77",
+      className: "social_share",
     },
     {
       name: "LinkedIn",
-      url: "http://www.pinterest.com",
-      className: "social_pinterest",
+      url: "https://www.linkedin.com/in/mehdi-safari-992799142/",
+      className: "social_linkedin",
     },
   ],
   aboutme: "About Me",
@@ -31,7 +26,7 @@ const myData = {
     {
       id: 1,
       iconName: "icon-desktop",
-      serviceTitle: "FullStack Web Development",
+      serviceTitle: "Web Development",
       sDetails:
         "I am a FullStack web developer proficient in Javascript, HTML, CSS, JQUERY, React.js and much more.",
     },

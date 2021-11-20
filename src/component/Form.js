@@ -135,7 +135,7 @@ class Form extends React.Component {
           placeholder="Your Message ..."
           onChange={this.handleChange}
         ></textarea>
-        <button type="submit" className="btn send_btn theme_btn">
+        <button href="mailto:sa.mehdisafari@gmail.com" type="submit" className="btn send_btn theme_btn">
           Send Message
         </button>
       </form>
