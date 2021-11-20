@@ -1,10 +1,11 @@
 import React, { Component } from "react";
 import Sticky from "react-stickynode";
 import { Link } from "react-scroll";
+import { NavLink } from "react-router-dom";
 
 class Navbar extends Component {
   render() {
-    var { mClass, mContainer, mainlogo, stickylogo } = this.props;
+    var { mClass, mContainer } = this.props;
     return (
       <Sticky top={0} innerZ={9999} activeClass="navbar_fixed">
         <nav className={`navbar navbar-expand-lg navbar-light ${mClass}`}>
@@ -34,17 +35,18 @@ class Navbar extends Component {
             >
               <ul className="nav navbar-nav m-auto">
                 <li className="nav-item">
-                  <Link
+                  <NavLink
                     className="nav-link"
                     activeClass="active"
-                    to="home"
+                    isActive= {() => window.location.pathname === "/Home"}
+                    to="/Home"
                     spy={true}
                     smooth={true}
                     offset={-86}
                     duration={500}
                   >
                     Home
-                  </Link>
+                  </NavLink>
                 </li>
                 <li className="nav-item">
                   <Link
