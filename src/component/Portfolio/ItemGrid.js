@@ -44,7 +44,9 @@ class ItemGrid extends Component {
                 <li className={`${this.onActive('*')}`} data-wow-delay="0.1s" data-filter="*" onClick={() => {this.onFilterChange("*")}}>ALL</li>
                 <li className={`${this.onActive('web')}`} data-wow-delay="0.3s" data-filter="web" onClick={() => {this.onFilterChange("web")}}>Web Development</li>
                 <li className={`${this.onActive(`develop`)}`} data-wow-delay="0.6s" data-filter="develop" onClick={()=> {this.onFilterChange("develop")}}>Mobile Development</li>
-                <button href="https://github.com/mehdisafari77?tab=repositories" target="_blank"className="btn send_btn theme_btn">View Github Repo</button>
+                <button className="btn send_btn theme_btn">
+                    <a href="https://github.com/mehdisafari77?tab=repositories" target="_blank">View Github Repos</a>
+                </button>
             </ul>	
 
             <div className="grid row">
