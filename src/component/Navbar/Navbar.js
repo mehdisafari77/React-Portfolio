@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Sticky from "react-stickynode";
 import { Link } from "react-scroll";
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 
 class Navbar extends Component {
   render() {
@@ -35,18 +35,18 @@ class Navbar extends Component {
             >
               <ul className="nav navbar-nav m-auto">
                 <li className="nav-item">
-                  <NavLink
+                  <Link
                     className="nav-link"
                     activeClass="active"
-                    isActive= {() => window.location.pathname === "/Home"}
-                    to="/Home"
+                    // isActive= {() => window.location.pathname === "/Home"}
+                    to="home"
                     spy={true}
                     smooth={true}
                     offset={-86}
                     duration={500}
                   >
                     Home
-                  </NavLink>
+                  </Link>
                 </li>
                 <li className="nav-item">
                   <Link
