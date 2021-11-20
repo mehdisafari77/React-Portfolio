@@ -840,14 +840,25 @@ h6 {
 .bg_w {
   background: #fff;
 }
-
+.img-fluid {
+  width: 100%;
+  max-width: 100%;
+  height: 150px;
+}
 .blog_post {
   cursor: pointer;
   -webkit-transition: all 0.3s linear;
   -o-transition: all 0.3s linear;
   transition: all 0.3s linear;
 }
-
+.blog_img {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
 .blog_post .blog_img {
   position: relative;
   border-top-left-radius: 5px;

@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Sticky from "react-stickynode";
 import { Link } from "react-scroll";
-// import { NavLink } from "react-router-dom";
 
 class Navbar extends Component {
   render() {
@@ -91,6 +90,19 @@ class Navbar extends Component {
                     duration={500}
                   >
                     Blog
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link
+                    className="nav-link"
+                    activeClass="active"
+                    to="skill"
+                    spy={true}
+                    smooth={true}
+                    offset={-86}
+                    duration={500}
+                  >
+                    Experience
                   </Link>
                 </li>
                 <li className="nav-item">

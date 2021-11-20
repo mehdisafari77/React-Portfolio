@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import {Link} from 'react-router-dom';
 import {Fade, Reveal} from 'react-reveal/';
 
 class About extends Component {

@@ -1,6 +1,6 @@
 import React , {Component} from 'react';
 import anime from 'animejs/lib/anime.es.js';
-import CounterItem from '../Skill/CounterItem';
+import CounterItem from './CounterItem';
 import Reveal from 'react-reveal/Reveal/';
 
 
@@ -44,7 +44,7 @@ class Skill extends Component {
     render(){
         var {cClass} = this.props;
         return(
-            <section className={`project_count_area ${cClass}`}>
+            <section className={`project_count_area ${cClass}`} id="skill">
                 <div className="container">
                     <Reveal effect="fadeInUp container2">
                         <div className="row">
