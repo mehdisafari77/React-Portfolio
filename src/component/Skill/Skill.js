@@ -46,10 +46,9 @@ class Skill extends Component {
         return(
             <section className={`project_count_area ${cClass}`}>
                 <div className="container">
-                    <Reveal effect="fadeInUp">
+                    <Reveal effect="fadeInUp container2">
                         <div className="row">
                             <CounterItem CText='36' pdescription='Total Projects' icon='briefcase'/>
-                            <CounterItem CText='5' pdescription='Happy Clients' icon='happy'/>
                             <CounterItem CText='2' pdescription='Years of Experience' icon='calendar'/>
                         </div>
                     </Reveal>

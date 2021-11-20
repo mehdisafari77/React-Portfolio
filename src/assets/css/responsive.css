@@ -79,7 +79,7 @@
   .navbar {
     padding: 0px 15px;
   }
-  .navbar .login {
+  .navbar .cv {
     margin-top: 0px;
     margin-left: auto;
     margin-right: 20px;
@@ -90,7 +90,7 @@
   .menu_two .navbar-toggler span {
     background: #0db3c7;
   }
-  .menu_two.navbar .login {
+  .menu_two.navbar .cv {
     display: none !important;
   }
   .navbar_fixed .menu_two .navbar-toggler span,
@@ -232,7 +232,7 @@
   .navbar .logo_h img {
     max-width: 80%;
   }
-  .navbar .login {
+  .navbar .cv {
     padding: 3px 27px;
   }
   .navbar_fixed .navbar .navbar-toggler {
@@ -395,7 +395,7 @@
   }
 }
 @media (max-width: 450px) {
-  .navbar.navbar_fixed .login {
+  .navbar.navbar_fixed .cv {
     display: none;
   }
   .service_img img {

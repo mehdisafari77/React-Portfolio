@@ -10,12 +10,6 @@ class Navbar extends Component {
       <Sticky top={0} innerZ={9999} activeClass="navbar_fixed">
         <nav className={`navbar navbar-expand-lg navbar-light ${mClass}`}>
           <div className={`container ${mContainer}`}>
-            {/* <a
-              href="./"
-              className="btn get-btn get-btn-two d-lg-none d-md-block login"
-            >
-              Login
-            </a> */}
             <button
               className="navbar-toggler"
               type="button"
@@ -38,7 +32,6 @@ class Navbar extends Component {
                   <Link
                     className="nav-link"
                     activeClass="active"
-                    // isActive= {() => window.location.pathname === "/Home"}
                     to="home"
                     spy={true}
                     smooth={true}
@@ -116,7 +109,7 @@ class Navbar extends Component {
               </ul>
               <ul className="nav navbar-nav navbar-right d-md-none d-lg-block">
                 <li className="nav-item">
-                  <a href="./" className="login">
+                  <a href="https://drive.google.com/file/d/1Qah5GcU5O40UQ6V9Hmp5nESFuZeghXs5/view?usp=sharing"  target="_blank" className="cv">
                     RESUME/CV
                   </a>
                 </li>

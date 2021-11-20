@@ -16,8 +16,7 @@ class About extends Component {
                                     <h2 className="t_color">{myData.aboutme}</h2>
                                     <h6>{myData.role}</h6>
                                     <p>{myData.aboutdetails}</p>
-                                    <Link to="/"  className="theme_btn active">Hire Me</Link>
-                                    <Link to="/" className="theme_btn">Download CV</Link>
+                                    <a className="theme_btn radius" href='https://drive.google.com/file/d/1Qah5GcU5O40UQ6V9Hmp5nESFuZeghXs5/view?usp=sharing' download="MehdiResume.pdf"  target="_blank">View CV</a>
                                 </div>
                             </Fade>
                         </div>

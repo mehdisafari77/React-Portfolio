@@ -96,6 +96,11 @@ h6 {
 .t_color {
   color: #040c2c;
 }
+.container2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 @media (max-width: 767px) {
   .container {
@@ -264,7 +269,7 @@ h6 {
   margin-left: 0px;
 }
 
-.navbar .login {
+.navbar .cv {
   padding: 5px 34px;
   font: 600 14px/30px "Montserrat", sans-serif;
   background: #fff;
@@ -284,7 +289,7 @@ h6 {
   display: inline-flex;
 }
 
-.navbar .login:before {
+.navbar .cv:before {
   content: "";
   position: absolute;
   z-index: -1;
@@ -313,13 +318,13 @@ h6 {
   transition-timing-function: ease-out;
 }
 
-.navbar .login:hover {
+.navbar .cv:hover {
   -webkit-box-shadow: 0px 16px 30px 0px rgba(0, 0, 0, 0.12);
   box-shadow: 0px 16px 30px 0px rgba(0, 0, 0, 0.12);
   color: #040c2c;
 }
 
-.navbar .login:hover:before {
+.navbar .cv:hover:before {
   -webkit-transform: scaleX(1);
   -ms-transform: scaleX(1);
   transform: scaleX(1);
@@ -351,15 +356,15 @@ h6 {
   background: #040c2c;
 }
 
-.navbar_fixed .login {
+.navbar_fixed .cv {
   border-color: #040c2c;
   color: #040c2c;
 }
-.navbar_fixed .login:before {
+.navbar_fixed .cv:before {
   background: #040c2c;
 }
 
-.navbar_fixed .login:hover {
+.navbar_fixed .cv:hover {
   color: #fff;
 }
 
@@ -431,7 +436,7 @@ h6 {
 .dark_menu .navbar .navbar-nav .nav-item .nav-link:hover:before {
   background: #040c2c;
 }
-.dark_menu .login {
+.dark_menu .cv {
   background: #040c2c;
   color: #fff;
 }
@@ -637,7 +642,11 @@ h6 {
 }
 .about_img img {
   margin-left: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
+  border-radius: 40%;
+  height: 550px;
+  width: 300px;
+  margin-bottom: 50px;
 }
 
 .work_area {
@@ -646,6 +655,7 @@ h6 {
 }
 
 .work_item {
+  border-radius: 40px;
   text-align: center;
   border: 1px solid #f3f1f1;
   background: #fff;
@@ -730,6 +740,7 @@ h6 {
 }
 
 .portfolio img {
+  border-radius: 10%;
   max-width: 100%;
 }
 
@@ -1206,20 +1217,20 @@ h6 {
 .red_color .theme_btn,
 .red_color .about_content .theme_btn.active:hover,
 .red_color .work_item:hover i,
-.red_color .navbar_fixed .login {
+.red_color .navbar_fixed .cv {
   border-color: #ff2a39;
   color: #ff2a39;
 }
 .red_color .theme_btn:before,
 .red_color .bottom_line,
 .red_color .work_item:hover i,
-.red_color .navbar_fixed .login:before {
+.red_color .navbar_fixed .cv:before {
   background: #ff2a39;
 }
 .red_color .theme_btn:hover,
 .red_color .work_item:hover i,
 .red_color .contact-area .input_form form .send_btn:hover,
-.red_color .navbar_fixed .login:hover {
+.red_color .navbar_fixed .cv:hover {
   color: #fff;
 }
 .red_color .work_item h2:hover,
@@ -1235,7 +1246,7 @@ h6 {
   background: #ff2a39;
 }
 .red_color .theme_btn,
-.navbar_fixed .login {
+.navbar_fixed .cv {
   border-width: 1px;
 }
 .red_color .project_count_area .counter_item i,
