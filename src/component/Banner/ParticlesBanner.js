@@ -22,6 +22,11 @@ class ParticlesBanner extends Component {
           <Particles />
           <div className="container">
             <div className="banner_content">
+            <div className="col-lg-5">
+                            <div className="about_img">
+                                <Reveal effect="fadeInRight" duration={1500}><img src={require('../../image/1.png')} alt=""/></Reveal>
+                            </div>
+                        </div>
               <Reveal effect="fadeInUp">
                 <h2 className="wow fadeInLeft animated">
                   I'm {myData.name2}

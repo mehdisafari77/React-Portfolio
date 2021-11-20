@@ -17,13 +17,14 @@ class About extends Component {
                                     <p>{myData.aboutdetails}</p>
                                     <a className="theme_btn radius" href='https://drive.google.com/file/d/1Qah5GcU5O40UQ6V9Hmp5nESFuZeghXs5/view?usp=sharing' download="MehdiResume.pdf"  target="_blank">View CV</a>
                                 </div>
+                                
                             </Fade>
                         </div>
-                        <div className="col-lg-5">
+                        {/* <div className="col-lg-5">
                             <div className="about_img">
                                 <Reveal effect="fadeInRight" duration={1500}><img src={require('../image/1.png')} alt=""/></Reveal>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </section>

@@ -1,13 +1,13 @@
 
 @media (max-width: 1199px) {
-  .about_img {
-    display: flex;
-    align-items: flex-end;
-    height: 100%;
-  }
   .about_img img {
-    max-width: 100%;
-    margin-left: 0;
+    align-items: center;
+    border-radius: 50%;
+    height: 350px;
+    width: 350px;
+} 
+  p {
+    font-size: 15px
   }
   .blog_post .post_content .blog-meta span {
     font-size: 14px;
@@ -32,9 +32,12 @@
   }
 }
 @media (max-width: 991px) {
-  .about_img {
-    text-align: center;
-  }
+  .about_img img {
+    align-items: center;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+}
   .about_content .theme_btn + .theme_btn {
     margin-left: 6px;
   }
@@ -119,8 +122,8 @@
   .blog_post .post_content {
     padding-left: 20px;
     padding-right: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
+    /* margin-left: 10px;
+    margin-right: 10px; */
   }
 }
 
@@ -135,8 +138,10 @@
     margin-bottom: 50px;
   }
   .about_img img {
-    max-width: 100%;
-    margin-left: 0px;
+    align-items: center;
+    border-radius: 50%;
+    height: 170px;
+    width: 170px;
   }
   .about_content {
     padding: 0px 0px 40px;
@@ -163,7 +168,13 @@
     overflow-y: scroll;
   }
   .banner_area_two .banner_content h2 {
-    font-size: 53px;
+    font-size: 27px;
+  }
+  .banner_area_two .banner_content h3 {
+    font-size: 24px;
+  }
+  .banner_area_two .banner_content h4 {
+    font-size: 20px;
   }
   .navbar .logo_h img {
     max-width: 80%;
@@ -185,6 +196,9 @@
   }
 }
 @media (max-width: 667px) {
+  .contact-area h4 {
+    font-size: 25px;
+  }
   .error_text:after {
     display: none;
   }
@@ -203,6 +217,12 @@
   }
 }
 @media (max-width: 576px) {
+  .about_img img {
+    align-items: center;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
   .portfolio_menu li {
     margin-right: 0px;
     margin-bottom: 8px;
@@ -214,11 +234,26 @@
     display: none;
   }
   .title_h2 {
-    font-size: 27px;
+    font-size: 25px;
     line-height: 40px;
   }
-  .banner_content h2 {
-    font-size: 38px;
+  .banner_area_two .banner_content h2 {
+    font-size: 25px;
+  }
+  .banner_area_two .banner_content h3 {
+    font-size: 20px;
+  }
+  .banner_area_two .banner_content h4 {
+    font-size: 17px;
+  }
+  .about_content h2 {
+    font-size: 25px;
+  }
+  .about_content h6 {
+    font-size: 20px;
+  }
+  .about_content p {
+    font-size: 17px;
   }
   .about_content .theme_btn {
     margin-bottom: 8px;
@@ -237,6 +272,9 @@
   .contact-area {
     padding: 90px 0px;
   }
+  .contact-area h4 {
+    font-size: 22px;
+  }
   .service_img img {
     width: 390px;
   }
@@ -246,8 +284,8 @@
   .blog_post .post_content {
     padding-left: 15px;
     padding-right: 15px;
-    margin-left: 5px;
-    margin-right: 5px;
+    /* margin-left: 5px;
+    margin-right: 5px; */
   }
 
   .footer-area-two .footer-content {

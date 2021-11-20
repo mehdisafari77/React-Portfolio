@@ -18,7 +18,7 @@ class Service extends Component{
                                         <div className="col-lg-4 col-sm-6" key={item.id}>
                                             <div className="work_item wow fadeInUp" data-wow-delay="0.1s">
                                                 <i className={item.iconName}></i>
-                                                <a href=".#"><h2 className="t_color">{item.serviceTitle}</h2></a>
+                                                <p><h2 className="t_color">{item.serviceTitle}</h2></p>
                                                 <p>{item.sDetails}</p>
                                             </div>
                                         </div>
