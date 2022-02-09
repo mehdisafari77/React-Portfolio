@@ -7,9 +7,10 @@ https://mehdisafari77.github.io/React-Portfolio/
 This is a portfolio website wriotten in react.js also making use of SASS for better designing. The portfolio has multiple sections with social links, portfolio positioning, link to repos, and a contact form.
 
 ## Gif Of Website
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/75599021/142742537-18f6dc1f-d738-4b1e-865c-c3dedb80a45b.gif)
 
 ## Gif of Website Responsiveness
-
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/75599021/142742496-09fd5497-4fa2-4775-a173-4c6fcececb69.gif)
 
 ## Built With
 * [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
