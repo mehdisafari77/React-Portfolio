@@ -21,14 +21,14 @@ const myData = {
   ],
   aboutme: "About Me",
   aboutdetails:
-    "I am Mehdi Safari, 23 years old, living in San Francisco. I am a software programmer proficiet in both mobile developmemnt and web, backed with backend knowledge in order to build a complete app from 0-100. I am creative, hard working and motivated to learn more and grow in the industry. I currently have only 2 years of experience, but am growing every day with a high pace.",
+    "I am Mehdi Safari, 23 years old, living in San Francisco. I am a software programmer proficiet in both mobile developmemnt and web, backed with backend knowledge in order to build a complete app from 0-100. I am creative, hard working and motivated to learn more and grow in the industry. I currently have only 3 years of experience, but am growing every day with a high pace.",
   service: [
     {
       id: 1,
       iconName: "icon-desktop",
       serviceTitle: "Web Development",
       sDetails:
-        "I am a FullStack web developer proficient in Javascript, HTML, CSS, JQUERY, React.js and much more.",
+        "I am a FullStack web developer proficient in Javascript, HTML, CSS, JQUERY, React.js, Node.js, AWS, Next.js, SQL, Postgresql, MongoDB, the whole MERN stack and much more.",
     },
     {
       id: 2,
