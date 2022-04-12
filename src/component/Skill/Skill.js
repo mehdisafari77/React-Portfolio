@@ -48,8 +48,8 @@ class Skill extends Component {
                 <div className="container">
                     <Reveal effect="fadeInUp container2">
                         <div className="row">
-                            <CounterItem CText='79' pdescription='Total Projects' icon='briefcase'/>
-                            <CounterItem CText='2+' pdescription='Years of Experience' icon='calendar'/>
+                            <CounterItem CText='36' pdescription='Total Projects' icon='briefcase'/>
+                            <CounterItem CText='2' pdescription='Years of Experience' icon='calendar'/>
                         </div>
                     </Reveal>
                 </div>
